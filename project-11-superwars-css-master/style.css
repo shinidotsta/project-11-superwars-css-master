@@ -1,0 +1,60 @@
+.footer{
+  margin-left : 80px;
+  font-size : 18px;
+}
+.container
+{
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+ 
+}
+.heroes
+{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.heroes div:nth-child(odd){
+  height: 12em;
+  width: 12em;
+  border: 2px solid black;
+  border-radius: 1em;
+
+}
+.heroes p{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.score p
+{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.villains
+{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.villains div:nth-child(odd){
+  height: 12em;
+  width: 12em;
+  border: 2px solid black;
+  border-radius: 1em;
+
+}
+.villains p{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container  div
+{
+  padding: 2em;
+}
